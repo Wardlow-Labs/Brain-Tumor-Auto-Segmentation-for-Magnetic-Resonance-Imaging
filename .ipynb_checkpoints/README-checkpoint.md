@@ -1,5 +1,5 @@
 # Brain Tumor Auto Segmentation for Magnetic Resonance Imaging
-<img src="images/prediction.png" width="30%">
+<img src="images/prediction.png" width="80%">
 
 
 This project uses the U-Net CNN to ingest 3-dimensional magnetic resonance imaging (MRI) images and automatically segment tumorous regions of the brain by classifying each voxel as either background, edema, non-enhancing tumor, or enhancing tumor.
