@@ -1,8 +1,10 @@
 # Brain Tumor Auto Segmentation for Magnetic Resonance Imaging
-<img src="images/prediction.png" width="80%">
+This project uses the U-Net CNN to ingest 4-dimensional magnetic resonance imaging (MRI) images in the form of standardized arrays and automatically segment tumorous regions of the brain by classifying each voxel as either background, edema, non-enhancing tumor, or enhancing tumor. The loss function used is the multi-class soft dice loss, an analogue of the dice similarity coefficient which is more suitable for the probabalistic output of our model (each voxel is assigned a probability between 0 and 1 for each of the aforementioned classes).
+
+<img src="images/prediction.png" width="100%">
 
 
-This project uses the U-Net CNN to ingest 3-dimensional magnetic resonance imaging (MRI) images and automatically segment tumorous regions of the brain by classifying each voxel as either background, edema, non-enhancing tumor, or enhancing tumor.
+
 
 
 
@@ -11,5 +13,5 @@ This project uses the U-Net CNN to ingest 3-dimensional magnetic resonance imagi
 
 
  
-*NOTE 1: AN OLDER VERSION OF TENSORFLOW/KERAS WAS USED DURING THIS COURSE.*
-I am currectly re-implementing this project in PyTorch as refactoring the code to the most current stable version of TensorFlow would essentially require rebuilding the entire project anyway.
+*NOTE THAT THIS PROJECT WAS BUILT USING A NOW-DEPRECATED VERSION OF TENSORFLOW/KERAS*
+A re-implementation is currently in the works! :)
